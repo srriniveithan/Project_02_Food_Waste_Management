@@ -207,3 +207,5 @@ if query == "Q15: Provider-wise Average Donation":
         GROUP BY p.Name
     """, conn)
     st.dataframe(df)
+
+conn.close()
